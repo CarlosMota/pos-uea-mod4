@@ -1,0 +1,18 @@
+[
+    {
+        "Dataset": "supply_chain_data_mao",
+        "Descrição": "Base de dados original com lista de produtos em estoque",
+        "Caminho": "data_lake\u0001_raw\\supply_chain_data_mao.csv",
+        "Formato": "CSV",
+        "Data": "2025-06-18",
+        "Versão": "1.0"
+    },
+    {
+        "Dataset": "supply_chain_data_mao",
+        "Descrição": "Base de dados processada com lista de produtos em estoque",
+        "Caminho": "data_lake\u0002_preprocessed\\supply_chain_data_mao.csv",
+        "Formato": "CSV e parquet",
+        "Data": "2025-06-18",
+        "Versão": "1.0"
+    }
+]
