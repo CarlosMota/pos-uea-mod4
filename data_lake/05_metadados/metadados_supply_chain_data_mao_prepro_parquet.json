@@ -1,0 +1,116 @@
+[
+    {
+        "Arquivo": "supply_chain_data_mao.parquet",
+        "Descrição": "Processos de produção e entrega de produtos",
+        "Formato": "parquet",
+        "Delimitador": ",",
+        "Codificação": "UTF-8",
+        "Número de linhas": 429,
+        "Decimal": ",",
+        "Colunas": [
+            {
+                "nome": "YEAR",
+                "tipo": "int32",
+                "descrição": "Ano de venda do produto"
+            },
+            {
+                "nome": "MONTH",
+                "tipo": "int32",
+                "descrição": "Mês de venda do produto"
+            },
+            {
+                "nome": "SKU",
+                "tipo": "object",
+                "descrição": "Stocking Keeping Unit: Identificador único do produto"
+            },
+            {
+                "nome": "LEAD_TIMES",
+                "tipo": "int64",
+                "descrição": "Tempo de reposição"
+            },
+            {
+                "nome": "MANUFACTURING_COSTS",
+                "tipo": "float64",
+                "descrição": "Preço de produção"
+            },
+            {
+                "nome": "CUSTOMER_NAME",
+                "tipo": "object",
+                "descrição": "Nome do comprador"
+            },
+            {
+                "nome": "CUSTOMER_CITY",
+                "tipo": "object",
+                "descrição": "Cidade do comprador"
+            },
+            {
+                "nome": "CUSTOMER_COUNTRY",
+                "tipo": "object",
+                "descrição": "País do comprador"
+            },
+            {
+                "nome": "TRANSP_MODE",
+                "tipo": "object",
+                "descrição": "Modo de transporte"
+            },
+            {
+                "nome": "SOLD_QTY",
+                "tipo": "float64",
+                "descrição": "Quantidade vendida"
+            },
+            {
+                "nome": "PRICE",
+                "tipo": "float64",
+                "descrição": "Preço de venda"
+            },
+            {
+                "nome": "REVENUE",
+                "tipo": "float64",
+                "descrição": "Receita gerada"
+            },
+            {
+                "nome": "FREIGHT",
+                "tipo": "float64",
+                "descrição": "Item fretado"
+            },
+            {
+                "nome": "STOCK_QTY",
+                "tipo": "float64",
+                "descrição": "Quantidade em estoque"
+            },
+            {
+                "nome": "REPOSITION",
+                "tipo": "int64",
+                "descrição": "Reposição"
+            },
+            {
+                "nome": "SKU",
+                "tipo": "category",
+                "descrição": "Código do SKU no formato original (string categórica)"
+            },
+            {
+                "nome": "CUSTOMER_NAME",
+                "tipo": "category",
+                "descrição": "Nome do comprador no formato original (string categórica)"
+            },
+            {
+                "nome": "CUSTOMER_CITY_LABEL",
+                "tipo": "int64",
+                "descrição": "Cidade do comprador no formato original (string categórica)"
+            },
+            {
+                "nome": "CUSTOMER_COUNTRY",
+                "tipo": "int64",
+                "descrição": "País do comprador no formato original (string categórica)"
+            },
+            {
+                "nome": "TRANSP_MODE",
+                "tipo": "int64",
+                "descrição": "Modo de transporte no formato original (string categórica)"
+            }
+        ],
+        "Fonte": "Desconhecida",
+        "Data do preprocessamento": "2025-06-19",
+        "Responsáveis": "Alexandra Amaro, Carlos Mota, Edney Farias, Maria Juliana Monte, Sidney Melo"
+    }
+]

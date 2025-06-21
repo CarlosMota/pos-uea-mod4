@@ -54,23 +54,19 @@ pip install -r requirements.txt
 ## Arquitetura do Projeto
 
 ```
-.
-├── mod4atv7.py                # Script principal de processamento
-├── requirements.txt           # Dependências do projeto
-├── README.md                  # Este arquivo
-├── data_lake/
-│   ├── 01_raw/                # Dados brutos
-│   │   └── supply_chain_data_mao.csv
-│   ├── 02_preprocessed/       # Dados pré-processados
-│   │   ├── supply_chain_data_mao.csv
-│   │   └── supply_chain_data_mao.parquet
-│   ├── 03_analytics/          # Dados para análises
-│   ├── 04_processed/          # Dados processados finais
-│   └── 05_metadados/          # Metadados dos datasets
-│       ├── catalogo_datalake.json
-│       ├── metadados_supply_chain_data_mao_proc_csv.json
-│       ├── metadados_supply_chain_data_mao_proc_parquet.json
-│       └── metadados_supply_chain_data_mao.json
+data_lake/
+├── 01_raw/            
+├── 02_preprocessed/   
+├── 03_analytics/      
+├── 04_processed/      
+├── 05_metadados/
+
+src/
+├── __init__.py
+├── features_selection.py
+├── preprocessed.py
+├── script_PCA.py
+├── utils.py
 ```
 
 - **01_raw:** Dados originais, sem tratamento.
@@ -81,11 +77,11 @@ pip install -r requirements.txt
 
 ## Execução
 
-Para rodar o script principal:
+Rodar as células dos arquivos:
 
-```sh
-python mod4atv7.py
-```
+1. preprocessed.py
+2. script_PCA.py
+3. feature_selection
 
 ## Licença
 

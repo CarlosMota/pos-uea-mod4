@@ -1,0 +1,31 @@
+{
+    "Dataset": "supply_chain_data_normalized",
+    "Descrição": "Dataset stored in Data Lake: supply_chain_data_normalized.parquet",
+    "Caminho": "../data_lake/04_processed/supply_chain_data_normalized.parquet",
+    "Formato": "PARQUET",
+    "Data": "2025-06-21",
+    "Versão": "1.0",
+    "NumColumns": 20,
+    "SampleColumns": [
+        "SKU",
+        "LEAD_TIMES",
+        "MANUFACTURING_COSTS",
+        "CUSTOMER_NAME",
+        "CUSTOMER_CITY",
+        "CUSTOMER_COUNTRY",
+        "TRANSP_MODE",
+        "SOLD_QTY",
+        "PRICE",
+        "REVENUE",
+        "FREIGHT",
+        "STOCK_QTY",
+        "REPOSITION",
+        "MONTH",
+        "YEAR",
+        "SKU_LABEL",
+        "CUSTOMER_NAME_LABEL",
+        "CUSTOMER_CITY_LABEL",
+        "CUSTOMER_COUNTRY_LABEL",
+        "TRANSP_MODE_LABEL"
+    ]
+}

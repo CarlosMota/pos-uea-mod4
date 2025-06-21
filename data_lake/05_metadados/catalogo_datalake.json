@@ -2,17 +2,81 @@
     {
         "Dataset": "supply_chain_data_mao",
         "Descrição": "Base de dados original com lista de produtos em estoque",
-        "Caminho": "data_lake\u0001_raw\\supply_chain_data_mao.csv",
+        "Caminho": "data_lake\raw\\supply_chain_data_mao.csv",
         "Formato": "CSV",
-        "Data": "2025-06-18",
+        "Data": "2025-06-21",
         "Versão": "1.0"
     },
     {
         "Dataset": "supply_chain_data_mao",
         "Descrição": "Base de dados processada com lista de produtos em estoque",
-        "Caminho": "data_lake\u0002_preprocessed\\supply_chain_data_mao.csv",
+        "Caminho": "data_lake\\processed\\supply_chain_data_mao.csv",
         "Formato": "CSV e parquet",
-        "Data": "2025-06-18",
+        "Data": "2025-06-21",
         "Versão": "1.0"
+    },
+    {
+        "Dataset": null,
+        "Description": "Image stored in Data Lake: hist_sold_qty.png",
+        "Path": "../data_lake/03_analytics/images/hist_sold_qty.png",
+        "Format": "PNG",
+        "Date": "2025-06-21",
+        "Version": "1.0"
+    },
+    {
+        "Dataset": null,
+        "Description": "Image stored in Data Lake: correlation.png",
+        "Path": "../data_lake/03_analytics/images/correlation.png",
+        "Format": "PNG",
+        "Date": "2025-06-21",
+        "Version": "1.0"
+    },
+    {
+        "Dataset": null,
+        "Description": "Image stored in Data Lake: variance_PCA.png",
+        "Path": "../data_lake/03_analytics/images/variance_PCA.png",
+        "Format": "PNG",
+        "Date": "2025-06-21",
+        "Version": "1.0"
+    },
+    {
+        "Dataset": null,
+        "Description": "Image stored in Data Lake: compare_pca.png",
+        "Path": "../data_lake/03_analytics/images/compare_pca.png",
+        "Format": "PNG",
+        "Date": "2025-06-21",
+        "Version": "1.0"
+    },
+    {
+        "Dataset": "supply_chain_data_normalized",
+        "Descrição": "Dataset stored in Data Lake: supply_chain_data_normalized.parquet",
+        "Caminho": "../data_lake/04_processed/supply_chain_data_normalized.parquet",
+        "Formato": "PARQUET",
+        "Data": "2025-06-21",
+        "Versão": "1.0"
+    },
+    {
+        "Dataset": "supply_chain_data_pca",
+        "Descrição": "Dataset stored in Data Lake: supply_chain_data_pca.parquet",
+        "Caminho": "../data_lake/04_processed/supply_chain_data_pca.parquet",
+        "Formato": "PARQUET",
+        "Data": "2025-06-21",
+        "Versão": "1.0"
+    },
+    {
+        "Dataset": null,
+        "Description": "Image stored in Data Lake: features_quantities.png",
+        "Path": "../data_lake/03_analytics/images/features_quantities.png",
+        "Format": "PNG",
+        "Date": "2025-06-21",
+        "Version": "1.0"
+    },
+    {
+        "Dataset": null,
+        "Description": "Image stored in Data Lake: score_features.png",
+        "Path": "../data_lake/03_analytics/images/score_features.png",
+        "Format": "PNG",
+        "Date": "2025-06-21",
+        "Version": "1.0"
     }
 ]

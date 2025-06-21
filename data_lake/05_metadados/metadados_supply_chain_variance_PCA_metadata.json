@@ -1,0 +1,11 @@
+{
+    "Dataset": null,
+    "Description": "Image stored in Data Lake: variance_PCA.png",
+    "Path": "../data_lake/03_analytics/images/variance_PCA.png",
+    "Format": "PNG",
+    "Date": "2025-06-21",
+    "Version": "1.0",
+    "Width": 2954,
+    "Height": 1754,
+    "SizeBytes": 132802
+}

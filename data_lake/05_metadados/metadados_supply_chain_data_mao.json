@@ -1,22 +1,22 @@
 [
     {
         "Arquivo": "supply_chain_data_mao.csv",
-        "Descrição": "Processos de produção e entrega de um produtos",
+        "Descrição": "Processos de produção e entrega de produtos",
         "Formato": "csv",
         "Delimitador": ",",
         "Codificação": "UTF-8",
-        "Número de linhas": 370,
+        "Número de linhas": 429,
         "Decimal": ",",
         "Colunas": [
             {
                 "nome": " YEAR_MONTH",
                 "tipo": "object",
-                "descrição": "Ano e mês"
+                "descrição": "Data de venda do produto"
             },
             {
                 "nome": "SKU",
                 "tipo": "object",
-                "descrição": "Stock Keeping Unit"
+                "descrição": "Stocking Keeping Unit: Identificador único do produto"
             },
             {
                 "nome": " DESCRIPTION",
@@ -26,11 +26,11 @@
             {
                 "nome": " LEAD_TIMES",
                 "tipo": "int64",
-                "descrição": "Tempo de processo"
+                "descrição": "Tempo de reposição"
             },
             {
                 "nome": " MANUFACTURING_COSTS",
-                "tipo": "int64",
+                "tipo": "float64",
                 "descrição": "Preço de produção"
             },
             {
@@ -54,19 +54,34 @@
                 "descrição": "Modo de transporte"
             },
             {
-                "nome": " SOLD_QUANTITY",
-                "tipo": "int64",
+                "nome": " SOLD_QTY",
+                "tipo": "float64",
                 "descrição": "Quantidade vendida"
             },
             {
-                "nome": "SOLD_PRICE",
+                "nome": " PRICE",
                 "tipo": "float64",
                 "descrição": "Preço de venda"
+            },
+            {
+                "nome": " REVENUE_GENERATED",
+                "tipo": "float64",
+                "descrição": "Receida gerada"
             },
             {
                 "nome": " FEIHT_ITEM",
                 "tipo": "float64",
                 "descrição": "Item fretado"
+            },
+            {
+                "nome": " STOK_QTY",
+                "tipo": "float64",
+                "descrição": "Quantidade em estoque"
+            },
+            {
+                "nome": " LEAD_TIMES_REPOSITION",
+                "tipo": "int64",
+                "descrição": "Reposição"
             }
         ],
         "Fonte": "Desconhecida",

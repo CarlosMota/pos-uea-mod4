@@ -1,0 +1,11 @@
+{
+    "Dataset": null,
+    "Description": "Image stored in Data Lake: features_quantities.png",
+    "Path": "../data_lake/03_analytics/images/features_quantities.png",
+    "Format": "PNG",
+    "Date": "2025-06-21",
+    "Version": "1.0",
+    "Width": 2604,
+    "Height": 1654,
+    "SizeBytes": 80150
+}

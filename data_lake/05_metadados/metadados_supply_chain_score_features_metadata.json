@@ -1,0 +1,11 @@
+{
+    "Dataset": null,
+    "Description": "Image stored in Data Lake: score_features.png",
+    "Path": "../data_lake/03_analytics/images/score_features.png",
+    "Format": "PNG",
+    "Date": "2025-06-21",
+    "Version": "1.0",
+    "Width": 3043,
+    "Height": 1654,
+    "SizeBytes": 147764
+}

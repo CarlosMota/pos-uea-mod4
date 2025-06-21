@@ -1,0 +1,16 @@
+{
+    "Dataset": "supply_chain_data_pca",
+    "Descrição": "Dataset stored in Data Lake: supply_chain_data_pca.parquet",
+    "Caminho": "../data_lake/04_processed/supply_chain_data_pca.parquet",
+    "Formato": "PARQUET",
+    "Data": "2025-06-21",
+    "Versão": "1.0",
+    "NumColumns": 5,
+    "SampleColumns": [
+        "PC1",
+        "PC2",
+        "PC3",
+        "PC4",
+        "PC5"
+    ]
+}
